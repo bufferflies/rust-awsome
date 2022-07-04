@@ -11,14 +11,14 @@
                     "--lib"
                 ]
             },
-            "program": "${cargo:program}/hello-world",
+            "program": "${cargo:program}/example",
             "args": []
         },
         {
             "name": "(OSX) Launch",
             "type": "lldb",
             "request": "launch",
-            "program": "${workspaceRoot}/target/debug/foo",
+            "program": "${workspaceRoot}/target/example/foo",
             "args": [],
             "cwd": "${workspaceRoot}",
         }

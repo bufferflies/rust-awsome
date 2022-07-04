@@ -7,9 +7,12 @@ edition = "2021"
 
 [dependencies]
 codec ={path="components/codec",default-features=false}
+yatp = { git = "https://github.com/tikv/yatp.git", branch = "master" }
 
 [workspace]
 resolver = "2"
 members =[
-    "components/codec"
+    "components/codec",
+    "components/leetcode",
+    "components/yatp"
 ]

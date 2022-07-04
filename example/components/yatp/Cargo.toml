@@ -1,0 +1,9 @@
+[package]
+name = "yatp"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+yatp = { git = "https://github.com/tikv/yatp.git", branch = "master" }
