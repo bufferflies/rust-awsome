@@ -2,7 +2,7 @@
 mod tests {
     use std::{thread, time::{Duration, Instant}, future::Future};
     use yatp::{
-        pool::{Builder}, queue::WithExtras,
+        pool::{Builder}
     };
     #[test]
     fn it_works() {
