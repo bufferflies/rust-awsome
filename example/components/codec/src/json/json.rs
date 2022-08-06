@@ -1,4 +1,3 @@
-
-pub fn print_codec(){
+pub fn print_codec() {
     println!("json")
 }
